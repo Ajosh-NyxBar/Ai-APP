@@ -18,7 +18,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" className="w-10 h-10 mr-2" />
             <span className="text-xl tracking-tight">VirtualR</span>
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-12">
+          <ul className="hidden lg:flex ml-[200px] space-x-12">
             {navItems.map((item) => (
               <li key={item.id}>
                 <a
@@ -30,7 +30,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-12 items-center">
+          <div className="hidden lg:flex justify-center space-x-12 items-center ml-[200px]">
             <a href="#" className="py-2 px-3 border rounded-md">
               Sign In
             </a>
@@ -38,7 +38,7 @@ const Navbar = () => {
               href="#"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 border rounded-md"
             >
-              Sign Up
+              Create an Account
             </a>
           </div>
           <div>
