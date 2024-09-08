@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import WorkFlow from "./components/WorkFlow";
+import SubcribePricing from "./components/SubcribePricing";
 const App = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const App = () => {
         <Hero />
         <Features />
         <WorkFlow />
+        <SubcribePricing />
       </div>
     </>
   );
