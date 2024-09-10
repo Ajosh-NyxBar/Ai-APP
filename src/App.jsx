@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import WorkFlow from "./components/WorkFlow";
 import SubcribePricing from "./components/SubcribePricing";
+import Footer from "./components/footer";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
         <Features />
         <WorkFlow />
         <SubcribePricing />
+        <Footer />
       </div>
     </>
   );
