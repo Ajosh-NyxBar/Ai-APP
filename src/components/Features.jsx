@@ -38,7 +38,6 @@ const Features = () => {
            </div>
           </div>
         ))}
-        {/* DISINI KODE SELANJUTNYA */}
       </div>
     </div>
   );
