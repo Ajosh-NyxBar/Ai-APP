@@ -31,4 +31,4 @@ Jika Anda ingin berkontribusi pada proyek ini, silakan buat pull request atau bu
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
-BY AKBAR
+BY AKBAR JR
